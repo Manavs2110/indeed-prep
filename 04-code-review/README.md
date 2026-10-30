@@ -1,4 +1,15 @@
-# Code Review exercise — PR #482 "Add Save Job feature"
+# Code Review exercises
+
+| PR | Branch | Stack | Description |
+| --- | --- | --- | --- |
+| #1 "Add Save Job feature" | `pr/482-save-job` | Spring Boot + React | `PR_DESCRIPTION.md` |
+| #2 "Add bulk CSV job import and promoted listings" | `pr/517-bulk-import` | Java only (like the real round) | in the PR on GitHub |
+
+Answer keys: PR #1 → `answer-keys/04-code-review.md` on `main`. PR #2 → branch `answers/pr-517` (kept off `main` so you don't see it by accident).
+
+---
+
+## PR #1 — "Add Save Job feature"
 
 **Format (like Indeed's round):** ~10 min discussing review philosophy, then ~35 min writing a review of a teammate's PR. Spring Boot backend + React frontend.
 
