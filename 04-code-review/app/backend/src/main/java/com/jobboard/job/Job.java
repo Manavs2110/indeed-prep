@@ -2,6 +2,8 @@ package com.jobboard.job;
 
 import jakarta.persistence.*;
 
+import java.util.Date;
+
 @Entity
 @Table(name = "jobs")
 public class Job {
@@ -20,6 +22,8 @@ public class Job {
     @Enumerated(EnumType.STRING)
     private JobStatus status;
 
+    private Date postedAt;
+
     public String getId() { return id; }
     public String getTitle() { return title; }
     public String getCompany() { return company; }
@@ -27,4 +31,5 @@ public class Job {
     public Integer getSalary() { return salary; }
     public String getDescription() { return description; }
     public JobStatus getStatus() { return status; }
+    public Date getPostedAt() { return postedAt; }
 }
